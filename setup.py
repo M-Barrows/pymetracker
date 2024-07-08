@@ -10,7 +10,7 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'pyme = pymetracker.main:run',
+            'pyme = pymetracker.main:main',
         ],
     },
 )
