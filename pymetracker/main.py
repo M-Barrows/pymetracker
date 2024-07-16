@@ -32,7 +32,7 @@ def main():
                 pass
 
             screen.refresh()
-            screen.clear()
+            screen.erase()
 
         except Exception as e:
             print(e)
