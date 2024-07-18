@@ -1,0 +1,9 @@
+Screen {
+    layout: horizontal;
+}
+#new-timer {
+    dock: bottom;
+    height: 10%;
+    width: 50%;
+    offset: 0 -2
+}

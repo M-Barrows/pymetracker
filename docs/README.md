@@ -4,6 +4,9 @@
 
 **Pymetracker** (rhymes with Time Tracker) is meant to be a light weight time tracker you can use from the terminal. While it's often easy to reach for products with a million integrations and a flashy UI, sometimes, all you need is to see how much time you've been working on a given project or see if there are any tasks that are consistently distracting you from your goal(s). 
 
+## Running
+
+`python3 pymetracker/main.py`
 
 ## Existing Features
 
