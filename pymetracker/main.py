@@ -12,13 +12,16 @@ class Task(Static):
     description = ""
 
     def on_button_pressed(self, event: Button.Pressed) -> None:
+        values = list()
         if event.button.id == "start_new_task":
-            yield Timer()
-            timer = self.query_one(Timer)
-            timer.start()
+            for field in self.query("Input"):
+                #TODO: Mount and Start a Timer() with these fields
+                #TODO: Save this task for easy re-start of a timer later
+                values.append(field.value)
+        self.remove() #TODO: Only remove the form, not the task data
 
     def compose(self): 
-        with Horizontal():
+        with Horizontal(id="new-task-form"):
             with Vertical():
                 yield Input(placeholder="client",type="text")
             with Vertical():
