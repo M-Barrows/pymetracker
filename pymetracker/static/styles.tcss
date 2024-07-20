@@ -5,5 +5,5 @@ Screen {
     dock: bottom;
     height: 10%;
     width: 50%;
-    offset: 0 -2
+    offset: 0 -3
 }
