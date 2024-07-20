@@ -8,6 +8,13 @@
 
 `python3 pymetracker/main.py`
 
+## Query Data Directly with SQLite
+
+1. Install SQLite with `sudo apt install sqlite3`
+2. Connect to the database `sqlite3 <path/to/database.db>`
+3. Change output mode to "table" with `.mode table`
+4. View all tasks `SELECT * FROM TASK;`
+
 ## Existing Features
 
 This project is new. Let me cook! 
